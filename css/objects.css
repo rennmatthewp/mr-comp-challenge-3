@@ -1,6 +1,33 @@
+:root {
+  --main-color: #354052;
+  --secondary-color: #30394A;
+  --bg-color: #EDF2F6;
+  --medium-grey: #F5F5F5;
+  --dark-grey: #6F7E95;
+  --bright-blue: #17A3F8;
+  --green: #48B9C2;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-family: 'Fira Sans', sans-serif;
+}
+
+body {
+  font-size: 1.5em;
+  height: 100vh;
+  color: var(--dark-grey);
+  display: grid;
+  grid-template-columns: 11rem auto;
+  grid-template-rows: auto;
+  grid-template-areas: "left top" "left bottom";
+}
+
+aside {
+  grid-area: left;
+  font-size: 1rem;
+  color: var(--bg-color);
+  background-color: var(--main-color);
 }
