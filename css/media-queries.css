@@ -53,3 +53,29 @@
     font-size: .7rem;
   }
 }
+
+@media (max-width: 780px) {
+  body {
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+    grid-template: "left" "top" "bottom";
+  }
+
+  input {
+    width: 25%;
+  }
+
+  aside {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: .5rem;
+  }
+
+  .profile {
+    width: 25%;
+  }
+
+  .aside-nav {
+    width: 25%;
+  }
+}
