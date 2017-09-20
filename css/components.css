@@ -2,6 +2,14 @@ search-bar img {
   height: 1rem;
 }
 
+nav a {
+  padding: .5rem;
+  padding-top: 1rem;
+  color: var(--dark-grey);
+  text-transform: uppercase;
+  border-bottom: 4px solid white;
+}
+
 .profile img {
   width: 60%;
   border-radius: 50%;
@@ -156,6 +164,15 @@ search-bar img {
   cursor: pointer;
   background-color: var(--dark-grey);
   color: var(--bg-color);
+}
+
+nav a:hover {
+  border-bottom: 4px solid var(--main-color);
+}
+
+nav .active {
+  border-bottom: 4px solid var(--bright-blue);
+  font-weight: 600;
 }
 
 #administration+label {
