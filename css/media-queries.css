@@ -59,5 +59,19 @@
   }
 }
  @media (max-width: 550px) {
+  html {
+    font-size: .8em;
+  }
 
+  .header-content {
+    padding: 1rem 2.2rem;
+  }
+
+  .visual-data {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: 
+  }
  }
