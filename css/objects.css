@@ -183,3 +183,18 @@ main {
   justify-content: space-between;
   margin: 1rem 0;
 }
+
+.main-area {
+  display: grid;
+  align-self: stretch;
+  grid-template-columns: auto 30%;
+  grid-template-areas: "content sidebar";
+  grid-column-gap: 3rem;
+  padding: 0 3rem 2rem 3rem;
+  grid-area: main;
+}
+
+.main-content {
+  grid-area: content;
+  border-radius: .25rem;
+}
