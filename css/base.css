@@ -15,7 +15,7 @@ h4 {
   border-top: 3px groove var(--dark-grey);
 }
 
-h6, h5 {
+h5, h6 {
   color: var(--dark-grey);
   font-size: .8rem;
   font-weight: 600;
