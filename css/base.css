@@ -40,3 +40,13 @@ p {
   border: 1px solid var(--main-color);
   background-color: var(--bg-color);
 }
+.side-widget h6 {
+  width: 90%;
+  font-size: 1rem;
+}
+
+.side-widget p {
+  display: block;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}

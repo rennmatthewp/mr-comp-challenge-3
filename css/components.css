@@ -254,10 +254,52 @@ nav a:hover {
   float: left;
   transition: all 500ms ease;
 }
+
 .facebook:hover span,
 .twitter:hover span,
 .linkedin:hover span {
   transform: scale(1.2);
+}
+
+.side-widget input {
+  font-size: 1rem;
+  color: var(--dark-grey);
+  line-height: 1.2rem;
+  margin: 0;
+  width: 75%;
+  height: 2rem;
+  padding: 0 .5rem;
+  border: 1px solid var(--dark-grey);
+  border-top-left-radius: .3rem;
+  border-bottom-left-radius: .3rem;
+}
+
+.side-widget button {
+  margin: 0;
+  font-size: 1rem;
+  border: 0;
+  color: white;
+  border-top-right-radius: .3rem;
+  border-bottom-right-radius: .3rem;
+  padding-left: .6rem;
+  background-color: var(--green);
+  width: 25%;
+  height: 2rem;
+}
+
+.side-widget button:hover {
+  cursor: pointer;
+  color: white;
+  background-color: var(--secondary-color);
+}
+
+.side-widget:last-child {
+  border-bottom: 0;
+}
+
+.upload input {
+  width: 100%;
+  border-radius: .3rem;
 }
 
 #administration+label {
