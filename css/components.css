@@ -131,6 +131,33 @@ search-bar img {
   cursor: pointer;
 }
 
+.header-content p {
+  font-size: .8rem;
+}
+
+.header-title {
+  display: inline-block;
+}
+
+.header-buttons {
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+.header-buttons span {
+  font-style: normal;
+  font-size: 1rem;
+  padding: .5rem;
+  border-radius: 1.5rem;
+  border: 1px solid var(--dark-grey);
+}
+
+.header-buttons span:hover {
+  cursor: pointer;
+  background-color: var(--dark-grey);
+  color: var(--bg-color);
+}
+
 #administration+label {
   background:
   url('../assets/check-box-red-blank.svg') left / contain no-repeat;
