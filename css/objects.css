@@ -119,8 +119,7 @@ main {
   padding: 1rem 3rem;
 }
 
-.circle-graphs-wrapper,
-.bar-graph {
+.circle-graphs-wrapper, .bar-graph {
   width: 100%;
   margin-top: 1.5rem;
   padding: .5rem;
@@ -160,4 +159,18 @@ main {
 
 .circle-graph-3 {
   grid-area: circle-3;
+}
+
+.graph-button {
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+
+.circle-graphs-button {
+  grid-area: circle-graphs-button;
+}
+
+.bar-graph-button {
+  grid-area: bar-graph-button;
 }

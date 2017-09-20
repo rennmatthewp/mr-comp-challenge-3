@@ -146,7 +146,6 @@ nav a:hover {
   border-bottom: 4px solid var(--main-color);
 }
 
-
 #administration+label {
   background:
   url('../assets/check-box-red-blank.svg') left / contain no-repeat;
