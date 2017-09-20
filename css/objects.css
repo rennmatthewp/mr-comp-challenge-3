@@ -150,14 +150,14 @@ main {
   align-items: center;
 }
 
-.graph-circle-1 {
+.circle-graph-1 {
   grid-area: circle-1;
 }
 
-.graph-circle-2 {
+.circle-graph-2 {
   grid-area: circle-2;
 }
 
-.graph-circle-3 {
+.circle-graph-3 {
   grid-area: circle-3;
 }
