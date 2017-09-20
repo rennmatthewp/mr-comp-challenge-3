@@ -22,7 +22,9 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
     grid-column-gap: 1rem;
-    grid-template-areas: "social social social" "link widget upload";
+    grid-template-areas:
+      "social social social"
+      "link widget upload";
   }
 
   .social-media {
@@ -34,23 +36,10 @@
 
   .facebook, .twitter, .linkedin {
     width: 30%;
-    font-size: .8rem;
   }
 
   .side-widget {
     border-bottom: 0;
-  }
-
-  .side-widget h6 {
-    font-size: .8rem;
-  }
-
-  .side-widget span {
-    font-size: .8rem;
-  }
-
-  .side-widget p {
-    font-size: .7rem;
   }
 }
 
@@ -66,16 +55,9 @@
   }
 
   aside {
-    display: flex;
-    flex-wrap: wrap;
-    padding-bottom: .5rem;
-  }
-
-  .profile {
-    width: 25%;
-  }
-
-  .aside-nav {
-    width: 25%;
+    display: none;
   }
 }
+ @media (max-width: 550px) {
+
+ }
