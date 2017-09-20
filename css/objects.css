@@ -210,3 +210,31 @@ main {
   display: flex;
   border-bottom: 1px solid var(--medium-grey);
 }
+
+.content-sidebar {
+  grid-area: sidebar;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: auto auto auto auto;
+  grid-template-areas:
+    "social"
+    "link"
+    "widget"
+    "upload";
+}
+
+.social-media {
+  grid-area: social;
+}
+
+.link {
+  grid-area: link;
+}
+
+.widget {
+  grid-area: widget;
+}
+
+.upload {
+  grid-area: upload;
+}

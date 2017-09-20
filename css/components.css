@@ -206,6 +206,60 @@ nav a:hover {
   border-radius: 50%;
 }
 
+.facebook,
+.twitter,
+.linkedin {
+  padding: .7rem;
+  text-align: center;
+  font-size: 1.1rem;
+  color: white;
+  margin-bottom: .75rem;
+  border-radius: .25rem;
+}
+
+.facebook:hover,
+.twitter:hover,
+.linkedin:hover {
+  box-shadow: 2px 2px 8px #000;
+  cursor: pointer;
+}
+
+.facebook {
+  background: #3b5998;
+}
+
+.twitter {
+  background: #43c8f4;
+}
+
+.linkedin {
+  background: #33a0d5;
+}
+
+.facebook:hover {
+  background: #5573b3;
+}
+
+.twitter:hover {
+  background: #00b6f1;
+}
+
+.linkedin:hover {
+  background: #007bb6;
+}
+
+.facebook span,
+.twitter span,
+.linkedin span {
+  float: left;
+  transition: all 500ms ease;
+}
+.facebook:hover span,
+.twitter:hover span,
+.linkedin:hover span {
+  transform: scale(1.2);
+}
+
 #administration+label {
   background:
   url('../assets/check-box-red-blank.svg') left / contain no-repeat;
