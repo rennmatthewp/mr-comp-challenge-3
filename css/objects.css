@@ -106,3 +106,80 @@ main {
   flex-wrap: wrap-reverse;
   justify-content: space-between;
 }
+
+.visual-data {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto auto;
+  grid-template-areas:
+    "circle-graphs-wrapper bar-graph"
+    "circle-graphs-button bar-graph-button"
+    "main-divide main-divide";
+  padding: 1rem 3rem;
+}
+
+.circle-graphs-wrapper, .bar-graph {
+  width: 100%;
+  margin-top: 1.5rem;
+  padding: .5rem;
+}
+
+.circle-graphs-wrapper {
+  grid-area: circle-graphs-wrapper;
+  display: grid;
+  grid-template-columns: 33.33% 33.33% 33.33%;
+  grid-template-rows: auto;
+  grid-template-areas: "circle-1 circle-2 circle-3";
+}
+
+.bar-graph {
+  grid-area: bar-graph;
+}
+
+.circle-graphs {
+  width: 100%;
+  height: auto;
+  /*font-size: .7rem;*/
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle-graph-1 {
+  grid-area: circle-1;
+}
+
+.circle-graph-2 {
+  grid-area: circle-2;
+}
+
+.circle-graph-3 {
+  grid-area: circle-3;
+}
+
+.graph-button {
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+
+.circle-graphs-button {
+  grid-area: circle-graphs-button;
+}
+
+.bar-graph-button {
+  grid-area: bar-graph-button;
+}
+
+.main-divide {
+  width: 100%;
+  grid-area: main-divide;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem 0;
+}

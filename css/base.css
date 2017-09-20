@@ -7,6 +7,28 @@ h4 {
   border-top: 3px groove var(--dark-grey);
 }
 
+h6, h5 {
+  color: var(--dark-grey);
+  font-size: .8rem;
+  font-weight: 600;
+  display: inline-block;
+  width: 25%;
+}
+
 p {
+  font-size: .8 rem;
   margin: 0;
+}
+
+.circle-graphs h3 {
+  font-size: 1.5rem;
+  display: block;
+}
+
+.graph-button h6 {
+  border-radius: 1rem;
+  padding: .5rem;
+  width: auto;
+  border: 1px solid var(--main-color);
+  background-color: var(--bg-color);
 }
