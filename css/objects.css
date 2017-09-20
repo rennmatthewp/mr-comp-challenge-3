@@ -21,7 +21,7 @@
 
 body {
   font-size: 1.5em;
-  /*height: 100vh;*/
+  max-width: 1440px;
   color: var(--dark-grey);
   display: grid;
   grid-template-columns: 11rem auto;
@@ -142,9 +142,9 @@ main {
 }
 
 .circle-graphs {
+  border-radius: 50%;
   width: 100%;
   height: auto;
-  /*font-size: .7rem;*/
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -155,14 +155,17 @@ main {
 
 .circle-graph-1 {
   grid-area: circle-1;
+  border: var(--bright-blue) solid 5px;
 }
 
 .circle-graph-2 {
   grid-area: circle-2;
+  border: var(--secondary-color) solid 5px;
 }
 
 .circle-graph-3 {
   grid-area: circle-3;
+  border: var(--green) solid 5px;
 }
 
 .graph-button {
