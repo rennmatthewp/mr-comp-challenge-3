@@ -37,6 +37,15 @@ header {
   align-self: start;
 }
 
+nav {
+  padding: 0 3rem;
+  font-size: .8rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
 main {
   grid-area: bottom;
   background: var(--bg-color)
@@ -52,4 +61,22 @@ main {
   flex-direction: column;
   margin: 0;
   padding: 0;
+}
+
+.search-bar {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 3rem auto 3rem 3rem 3rem;
+  grid-template-rows: 3rem;
+  grid-template-areas: "hamburger search profile calendar apps";
+  border-bottom: 1px solid var(--medium-grey);
+}
+
+.header-content {
+  width: 100%;
+  padding: 3rem;
+  padding-bottom: 2rem;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: space-between;
 }
