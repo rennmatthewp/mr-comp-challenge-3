@@ -174,3 +174,12 @@ main {
 .bar-graph-button {
   grid-area: bar-graph-button;
 }
+
+.main-divide {
+  width: 100%;
+  grid-area: main-divide;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem 0;
+}
