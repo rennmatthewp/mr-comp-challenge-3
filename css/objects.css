@@ -46,6 +46,11 @@ nav {
   align-items: center;
 }
 
+nav .active {
+  border-bottom: 4px solid var(--bright-blue);
+  font-weight: 600;
+}
+
 main {
   grid-area: bottom;
   background: var(--bg-color)
@@ -70,6 +75,27 @@ main {
   grid-template-rows: 3rem;
   grid-template-areas: "hamburger search profile calendar apps";
   border-bottom: 1px solid var(--medium-grey);
+}
+
+.search-field {
+  grid-area: search;
+  position: relative;
+  justify-content: flex-start !important;
+}
+
+.search-bar span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+  transition: all 300ms ease;
+}
+
+.search-bar span:hover span {
+  z-index: 10;
+  color: var(--bg-color);
+  transform: scale(1.3);
+  text-shadow: 2px 2px 4px #000;
 }
 
 .header-content {
