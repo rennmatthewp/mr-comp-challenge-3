@@ -1,7 +1,7 @@
 :root {
   --main-color: #354052;
   --secondary-color: #30394A;
-  --background-color: #EDF2F6;
+  --bg-color: #EDF2F6;
   --medium-grey: #F5F5F5;
   --dark-grey: #6F7E95;
   --bright-blue: #17A3F8;
@@ -39,5 +39,17 @@ header {
 
 main {
   grid-area: bottom;
-  background: var(--background-color)
+  background: var(--bg-color)
+}
+
+.profile {
+  padding: .8em;
+  text-align: center;
+}
+
+.aside-nav form {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
 }
